@@ -247,4 +247,13 @@ jQuery(window).on('load', function () {
     ----------------------------*/
     $(".preeloader").fadeOut(1000);
 
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 30) {
+            $('.login_btn').attr('style', 'margin-top: 3px !important;');
+        } else {
+            $('.login_btn').attr('style', 'margin-top: 25px !important;');
+        }
+    });
+    
+
 });
