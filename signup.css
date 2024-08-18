@@ -42,6 +42,7 @@ body{
     column-gap: 10px;
     padding-top: 18px;
     padding-bottom: 7px;
+    margin-bottom: 10px;
 }
 
 .input_div .name{
@@ -58,7 +59,7 @@ body{
     color: rgba(255, 255, 255, .5);
 }
 .logo{
-    margin-top: -20px;
+    margin-top: -10px;
 }
 .signup_title{
     font-size: 2rem;
@@ -86,13 +87,14 @@ body{
     font-weight: 600;
     transition: .4s;
     border: 1px solid #D3FFEA;
+    letter-spacing: 1px;
 }
 .back:hover{
     background: #D3FFEA;
     color: #111111;
 }
 .signup_content{
-    padding: 50px;
+    padding: 30px;
 }
 .signup_send{
     background: #31dc89;

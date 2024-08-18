@@ -34,6 +34,7 @@
 /* course details content */
 .course_details_body_section{
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .btn_register {
@@ -68,7 +69,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    column-gap: 20px;
+    column-gap: 30px;
 }
 .tab_content {
     display: none;
